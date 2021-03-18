@@ -4,7 +4,7 @@
     padding: 0;
 }
 .animation-area {
-	background: linear-gradient(to right, #8942a8, #ba382f);
+	background: linear-gradient(to left, #380000, #ff5b4f);
 	width: 100vh;
 	height: 100vh;
 }
@@ -77,14 +77,14 @@
 /* Elementos com o ID "titulo" */
 #titulo {
     font-family: sans-serif;
-    color: #d9bef1;
+    color: #ffffff;
     margin-left: 7%;
 } 
 
 /* Elementos com o ID "subtitulo" */
 #subtitulo {
     font-family: sans-serif;
-    color: #d0a1fc;
+    color: #ffffff;
     margin-left: 10%;
 } 
 
@@ -110,7 +110,7 @@ body{
 input, select, textarea, button {
     font-family: sans-serif;
     font-size: 1em;
-    color: #a289ee;
+    color: #ffffff;
     border-radius: 5px;
 }
 
@@ -131,8 +131,8 @@ input, select, textarea, button {
 
 /* Elementos de classe "campo" de tag <label> */
 .campo label {
-    margin-bottom: 0.2em;
-    color: #59429d;
+    
+    color: #ffffff;
     display: block;
 }
 
@@ -163,7 +163,7 @@ fieldset.grupo .campo {
 /* Elemento de classe "botao" */
 .botao {
     font-size: 1.2em;
-    background: #59429d;
+    background: #0b002e;
     border: 0;
     margin-bottom: 1em;
     color: #ffffff;
@@ -179,7 +179,7 @@ fieldset.grupo .campo {
 
 /* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
 .botao:hover {
-    background: #CCBBFF;
+    background: #520000;
     box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: none;
 }
